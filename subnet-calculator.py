@@ -26,5 +26,7 @@ print()
 print(f"Son Kullanılabilir Adres: {network.broadcast_address - 1}")
 print()
 print(f"Toplam IP Adres Sayısı: {network.num_addresses}")
+print()
+print(f"Son kullanıcıya verilebilecek toplam adres sayısı: {network.num_addresses - 2}")
 
 
